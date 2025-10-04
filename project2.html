@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyShop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full bg-white shadow-md flex justify-between items-center p-4 z-50">
+    <h1 class="text-2xl font-bold text-blue-600">MyShop</h1>
+    <ul class="hidden md:flex gap-6 text-gray-600 font-medium">
+      <li><a href="#" class="hover:text-blue-600">Home</a></li>
+      <li><a href="#products" class="hover:text-blue-600">Products</a></li>
+      <li><a href="#reviews" class="hover:text-blue-600">Reviews</a></li>
+      <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen bg-blue-100 flex flex-col justify-center items-center text-center px-4">
+    <h2 class="text-5xl font-bold text-blue-700 mb-4">Welcome to MyShop</h2>
+    <p class="text-lg text-gray-700 mb-6">Best products at the best prices, just for you.</p>
+    <button class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">Shop Now</button>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="py-16 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center mb-10">Our Products</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+      <div class="bg-white shadow-lg rounded-lg p-6 hover:scale-105 transition-transform">
+        <img src="product\wireless.jpeg" alt="Product 1" class="w-full h-40 object-cover mb-4 rounded">
+        <h3 class="text-xl font-semibold">Wireless Headphones</h3>
+        <p class="text-gray-600 mb-2">High-quality sound with noise cancellation.</p>
+        <p class="text-blue-600 font-bold mb-4">$59.99</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy Now</button>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 hover:scale-105 transition-transform">
+        <img src="product\watch.jpeg" alt="Product 2" class="w-full h-40 object-cover mb-4 rounded">
+        <h3 class="text-xl font-semibold">Smart Watch</h3>
+        <p class="text-gray-600 mb-2">Track fitness and stay connected all day.</p>
+        <p class="text-blue-600 font-bold mb-4">$89.99</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy Now</button>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 hover:scale-105 transition-transform">
+        <img src="product\laptop.jpeg" alt="Product 3" class="w-full h-40 object-cover mb-4 rounded">
+        <h3 class="text-xl font-semibold">Laptop</h3>
+        <p class="text-gray-600 mb-2">Powerful and lightweight for your daily tasks.</p>
+        <p class="text-blue-600 font-bold mb-4">$999.99</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy Now</button>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 hover:scale-105 transition-transform">
+        <img src="product\keyboard.jpeg" alt="Product 4" class="w-full h-40 object-cover mb-4 rounded">
+        <h3 class="text-xl font-semibold">Mechanical Keyboard</h3>
+        <p class="text-gray-600 mb-2">Ergonomic and responsive typing experience.</p>
+        <p class="text-blue-600 font-bold mb-4">$49.99</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy Now</button>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 hover:scale-105 transition-transform">
+        <img src="product\mouse.jpeg" alt="Product 5" class="w-full h-40 object-cover mb-4 rounded">
+        <h3 class="text-xl font-semibold">Gaming Mouse</h3>
+        <p class="text-gray-600 mb-2">Precision and speed for pro gamers.</p>
+        <p class="text-blue-600 font-bold mb-4">$29.99</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy Now</button>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 hover:scale-105 transition-transform">
+        <img src="product\speaker.jpeg" alt="Product 6" class="w-full h-40 object-cover mb-4 rounded">
+        <h3 class="text-xl font-semibold">Bluetooth Speaker</h3>
+        <p class="text-gray-600 mb-2">Portable sound with deep bass.</p>
+        <p class="text-blue-600 font-bold mb-4">$39.99</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy Now</button>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 hover:scale-105 transition-transform">
+        <img src="product\cam.jpeg" alt="Product 7" class="w-full h-40 object-cover mb-4 rounded">
+        <h3 class="text-xl font-semibold">Digital Camera</h3>
+        <p class="text-gray-600 mb-2">Capture every moment in HD quality.</p>
+        <p class="text-blue-600 font-bold mb-4">$499.99</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy Now</button>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 hover:scale-105 transition-transform">
+        <img src="product\phone.jpeg" alt="Product 8" class="w-full h-40 object-cover mb-4 rounded">
+        <h3 class="text-xl font-semibold">Smartphone</h3>
+        <p class="text-gray-600 mb-2">Sleek design with powerful performance.</p>
+        <p class="text-blue-600 font-bold mb-4">$699.99</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy Now</button>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 hover:scale-105 transition-transform">
+        <img src="product\luxury.jpeg" alt="Product 9" class="w-full h-40 object-cover mb-4 rounded">
+        <h3 class="text-xl font-semibold">Luxury Watch</h3>
+        <p class="text-gray-600 mb-2">Elegant design for every occasion.</p>
+        <p class="text-blue-600 font-bold mb-4">$199.99</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="py-16 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-10">Customer Reviews</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+      <div class="p-6 shadow-lg rounded-lg text-center">
+        <img src="customer\john.jpeg" class="w-16 h-16 rounded-full mx-auto mb-4">
+        <h3 class="font-semibold">John Doe</h3>
+        <p class="text-yellow-500">★★★★★</p>
+        <p class="text-gray-600 mt-2">Great product! Totally worth the price.</p>
+      </div>
+      <div class="p-6 shadow-lg rounded-lg text-center">
+        <img src="customer\salman.jpeg" class="w-16 h-16 rounded-full mx-auto mb-4">
+        <h3 class="font-semibold">Salman Khan</h3>
+        <p class="text-yellow-500">★★★★★</p>
+        <p class="text-gray-600 mt-2">Amazing quality and fast delivery!</p>
+      </div>
+      <div class="p-6 shadow-lg rounded-lg text-center">
+        <img src="customer\Rafi.jpeg" class="w-16 h-16 rounded-full mx-auto mb-4">
+        <h3 class="font-semibold">Rafiul Islam</h3>
+        <p class="text-yellow-500">★★★★☆</p>
+        <p class="text-gray-600 mt-2">Good product, recommended for everyone.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="py-16 bg-blue-50 text-center">
+    <h2 class="text-3xl font-bold text-blue-700 mb-4">About Us</h2>
+    <p class="max-w-xl mx-auto text-gray-700">We are a modern online shop delivering quality products with the best service. Our mission is customer happiness and satisfaction through every purchase.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center mb-10">Contact Us</h2>
+    <div class="max-w-lg mx-auto text-center">
+      <p class="mb-4 text-gray-700">📍 Shekh Mujib Road, Choumuhooni, Chattogram</p>
+      <p class="mb-4 text-gray-700">📧 support@myshop.com</p>
+      <p class="mb-4 text-gray-700">📞 +880 1234 567890</p>
+      <form class="flex flex-col gap-4 mt-6">
+        <input type="text" placeholder="Name" class="p-3 border rounded">
+        <input type="email" placeholder="Email" class="p-3 border rounded">
+        <textarea placeholder="Message" class="p-3 border rounded"></textarea>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center p-4">
+    <p>© 2025 MyShop. All rights reserved.</p>
+    <div class="flex justify-center gap-6 mt-2">
+      <a href="#" class="hover:underline">Home</a>
+      <a href="#" class="hover:underline">About</a>
+      <a href="#" class="hover:underline">Contact</a>
+    </div>
+  </footer>
+
+</body>
+</html>
